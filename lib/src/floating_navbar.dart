@@ -71,6 +71,7 @@ class _FloatingNavbarState extends State<FloatingNavbar> {
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
+      height: 120,
       color: Colors.transparent,
       elevation: widget.elevation,
       child: Column(
